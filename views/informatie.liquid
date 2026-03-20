@@ -9,8 +9,8 @@
         </header>
 
         <figure class="instrument-image">
-            {% if instrument.photos %}
-            <img src="{{ instrument.photos[0] }}" alt="{{ instrument.name }}">
+            {% if instrument.photo %}
+            <img src="https://fdnd-agency.directus.app/assets/{{ instrument.photo }}" alt="{{ instrument.name }}">
             {% else %}
             <img src="/icons/logo.svg" alt="Geen afbeelding beschikbaar">
             {% endif %}
