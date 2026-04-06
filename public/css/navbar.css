@@ -196,3 +196,14 @@
         transform: scaleX(0);
     }
 }
+
+@media (max-width: 400px) {
+    * {
+        animation: none;
+        transition: none;
+    }
+
+    .nav-list li a::after {
+        transform: scaleX(0);
+    }
+}
